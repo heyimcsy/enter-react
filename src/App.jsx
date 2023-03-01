@@ -1,16 +1,6 @@
 import React from 'react'
+import Child from './components/Child'
 
-function Child() {
-  return (
-    <button
-      onClick={() => {
-        alert('2회독 차입니다 !')
-      }}
-    >
-      클릭!
-    </button>
-  )
-}
 function App() {
   // <---- 자바스크립트 영역 ---->
 
